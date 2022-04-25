@@ -16,8 +16,8 @@ export const DropContainer = styled.div.attrs({
 
     transition: height 0.2s ease;
 
-    ${ props => props.isDragActive && dragActive};
-    ${ props => props.isDragReject && dragReject};
+    ${props => props.isDragActive && dragActive};
+    ${props => props.isDragReject && dragReject};
 
 `;
 
